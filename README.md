@@ -1,8 +1,10 @@
-# dbank
+# DBank- DfinityBlockchain-DecentralisedFinanceBankApp-
 
-Welcome to your new dbank project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+## About Project 
 
-To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
+DBank is a decentralised finance app based on Dfinity Blockchain
+
+## Learn More
 
 To learn more before you start working with dbank, see the following documentation available online:
 
@@ -19,7 +21,6 @@ cd dbank/
 dfx help
 dfx config --help
 ```
-
 ## Running the project locally
 
 If you want to test your project locally, you can use the following commands:
@@ -31,7 +32,6 @@ dfx start --background
 # Deploys your canisters to the replica and generates your candid interface
 dfx deploy
 ```
-
 Once the job completes, your application will be available at `http://localhost:8000?canisterId={asset_canister_id}`.
 
 Additionally, if you are making frontend changes, you can start a development server with
